@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="lib/framework7/css/framework7.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+    .demo-card-header-pic .card-header {
+        height: 150vw;
+        background-size: cover;
+        background-position: center;
+        color: #fff;
+      }
+      .demo-card-header-pic .card-content-padding .date{
+        color: #fff;
+      }
+      .card-header{
+        height: 40vw;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main">
+        <!-- Initial Page, "data-name" contains page name -->
+        <div data-name="home" class="page">
+          <!-- Scrollable page content -->
+          <div class="navbar">
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" class="back link">
+                    <i class="icon icon-back"></i>
+                    <span>Back</span>
+                </a>
+            </div>
+            <div class="center sliding">Menu</div>
+            <div class="right">
+                <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+            </div>
+        </div>
+    </div>
+          <div class="page-content">
+            <!-- Link to another page -->
+        
+      <div class="card demo-card-header-pic">
+
+        <div class="list media-list">
+          <ul>
+            <li>
+              <a href="/adobo/" class="item-link item-content">
+                <div class="item-media"><img src="images/adobo.jpg" width="80" height="80"/></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Adobo</div>
+                  </div>
+                  <div class="item-subtitle">Main Course</div>
+                  <div class="item-text">Read more...</div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/afritada/" class="item-link item-content">
+                <div class="item-media"><img src="images/afritada.jpg" width="80" height="80"/></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Afritada</div>
+                  </div>
+                  <div class="item-subtitle">Main Course</div>
+                  <div class="item-text">Read more...</div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/bulalo/" class="item-link item-content">
+                <div class="item-media"><img src="images/bulalo.jpg" width="80" height="80"/></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Bulalo</div>
+                  </div>
+                  <div class="item-subtitle">Main Course</div>
+                  <div class="item-text">Read more...</div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/kinilaw/" class="item-link item-content">
+                <div class="item-media"><img src="images/kinilaw.jpg" width="80" height="80"/></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Kinilaw</div>
+                  </div>
+                  <div class="item-subtitle">Appetizer</div>
+                  <div class="item-text">Read more...</div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/sisig/" class="item-link item-content">
+                <div class="item-media"><img src="images/sisig.jpg" width="80" height="80"/></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Sisig</div>
+                  </div>
+                  <div class="item-subtitle">Main Course</div>
+                  <div class="item-text">Read more...</div>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/tinola/" class="item-link item-content">
+                <div class="item-media"><img src="images/tinola.jpg" width="80" height="80"/></div>
+                <div class="item-inner">
+                  <div class="item-title-row">
+                    <div class="item-title">Tinola</div>
+                  </div>
+                  <div class="item-subtitle">Main Course</div>
+                  <div class="item-text">Read more...</div>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="lib/framework7/js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+  </body>
+</html>
